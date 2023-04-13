@@ -3,12 +3,12 @@
     <div>
       <div class="tituloDoTotal">
         <h1>Total</h1>
-        <h2>/Person</h2>
+        <h2>/Pessoas</h2>
       </div>
       <p class="resultado">R${{ result }}</p>
     </div>
     <div>
-      <button class="botaoDeCalcular" @click="calcular">Calculate</button>
+      <button class="botaoDeCalcular" @click="calcular">Calcular</button>
     </div>
   </div>
 </template>
