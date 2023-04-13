@@ -21,13 +21,7 @@ export default {
 };
 </script>
 <style>
-.tituloBlocos{
-  font-weight:300;
-
+.tituloBlocos {
+  font-weight: 300;
 }
-.blocos{
-  margin:3rem 0rem;
-}
-
-
 </style>

@@ -36,28 +36,27 @@ export default {
 };
 </script>
 <style>
-.blocoValorFinal{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  background-color:#000;
-  border-radius:1rem;
-  padding:2rem;
-  margin:2rem;
-  color:white;
+.blocoValorFinal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem;
+  color: white;
 }
-.tituloDoTotal{
-  margin:2.5rem;
+.tituloDoTotal {
+  margin: 2.5rem;
 }
-.botaoDeCalcular{
-  border-radius:1rem;
-  border-style:none;
+.botaoDeCalcular {
+  border-radius: 1rem;
+  border-style: none;
   padding: 0.25rem 1rem;
 }
-.resultado{
-  text-align:center;
-  margin:1rem;
+.resultado {
+  text-align: center;
+  margin: 1rem;
 }
-
 </style>
