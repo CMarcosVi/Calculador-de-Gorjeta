@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="blocos">
     <div>
-      <h1>Number of Peolple</h1>
+      <h1 class="tituloBlocos">Numero de pessoas</h1>
     </div>
     <input
       id="numeroPessoasInput"

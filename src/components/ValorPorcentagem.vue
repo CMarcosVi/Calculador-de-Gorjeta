@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>Porcentagem da Gorjeta</h1>
+  <div class="blocos">
+    <h1 class="tituloBlocos">Porcentagem da Gorjeta</h1>
     <input
       id="porcentagemInput"
       v-model="porcentagemInput"

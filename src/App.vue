@@ -30,9 +30,12 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Rubik', sans-serif;
 }
 body {
   height:100vh;
@@ -40,7 +43,7 @@ body {
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  background: linear-gradient(270deg, #0E6251, #28B463);
+  background: linear-gradient(270deg, #000, #55c);
 }
 #app{
   display:flex;
@@ -48,10 +51,18 @@ body {
   justify-content:center;
   align-items:center;
 }
+.titleProject{
+  color:#fff;
+  letter-spacing:0.5rem;
+  margin:1rem;
+}
 .corpo{
   display:flex;
   background-color:#fff;
+  justify-content:space-around;
+  align-items:center;
   border-radius:1rem;
+  padding:0rem 2.5rem;
   box-shadow: 0px 5px 38px 0px rgba(0,0,0,0.75);
 }
 </style>

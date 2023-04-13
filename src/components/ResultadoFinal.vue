@@ -1,15 +1,14 @@
 <template>
-  <div>
-
+  <div class="blocoValorFinal">
     <div>
-      <div>
+      <div class="tituloDoTotal">
         <h1>Total</h1>
         <h2>/Person</h2>
       </div>
-      <p>R${{ result }}</p>
+      <p class="resultado">R${{ result }}</p>
     </div>
     <div>
-      <button @click="calcular">Calculate</button>
+      <button class="botaoDeCalcular" @click="calcular">Calculate</button>
     </div>
   </div>
 </template>
@@ -36,3 +35,29 @@ export default {
   },
 };
 </script>
+<style>
+.blocoValorFinal{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color:#000;
+  border-radius:1rem;
+  padding:2rem;
+  margin:2rem;
+  color:white;
+}
+.tituloDoTotal{
+  margin:2.5rem;
+}
+.botaoDeCalcular{
+  border-radius:1rem;
+  border-style:none;
+  padding: 0.25rem 1rem;
+}
+.resultado{
+  text-align:center;
+  margin:1rem;
+}
+
+</style>

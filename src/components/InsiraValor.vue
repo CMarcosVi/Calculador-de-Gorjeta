@@ -1,7 +1,8 @@
 <template>
-  <div>
-    <h1>Bill</h1>
-    <input v-model="valorInput" type="number" placeholder="0" min="0" />
+  <div class="blocos">
+    <h1 class="tituloBlocos">Bill</h1>
+    <p>Valor em Reais</p>
+    <input v-model="valorInput" type="number" min="0" />
   </div>
 </template>
 
@@ -19,3 +20,14 @@ export default {
   },
 };
 </script>
+<style>
+.tituloBlocos{
+  font-weight:300;
+
+}
+.blocos{
+  margin:3rem 0rem;
+}
+
+
+</style>
