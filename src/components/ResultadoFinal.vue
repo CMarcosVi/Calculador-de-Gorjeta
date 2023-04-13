@@ -3,7 +3,7 @@
     <div>
       <div class="tituloDoTotal">
         <h1>Total</h1>
-        <h2>/Pessoas</h2>
+        <h2>/Por Pessoa</h2>
       </div>
       <p class="resultado">R${{ result }}</p>
     </div>
